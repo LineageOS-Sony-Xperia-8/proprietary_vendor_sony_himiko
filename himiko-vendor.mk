@@ -6,24 +6,144 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/himiko
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/himiko/proprietary/vendor/bin/hw/qcrild-himiko:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild-himiko \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO11000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO11000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO11000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO11000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO11000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO11000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO11000_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO11000_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO11000_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO11000_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO2200_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO2200_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO2200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO2200_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO2200_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO2200_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO2200_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO2200_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO2200_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO2200_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO240_3016x3016.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO240_3016x3016.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO240_4000x3000.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO240_4000x3000.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO240_4032x1728.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO240_4032x1728.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO240_4032x2272.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO240_4032x2272.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO3000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO3000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO3000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO3000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO3000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO3000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO3000_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO3000_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO3000_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO3000_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO4000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO4000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO4000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO4000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO4000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO4000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO4000_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO4000_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO4000_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO4000_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO400_3016x3016.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO400_3016x3016.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO400_4000x3000.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO400_4000x3000.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO400_4032x1728.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO400_4032x1728.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO400_4032x2272.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO400_4032x2272.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO520_3016x3016.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO520_3016x3016.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO520_4000x3000.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO520_4000x3000.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO520_4032x1728.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO520_4032x1728.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO520_4032x2272.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO520_4032x2272.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO6000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO6000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO6000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO6000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO6000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO6000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO6000_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO6000_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO6000_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO6000_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO7200_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO7200_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO7200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO7200_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO7200_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO7200_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO7200_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO7200_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO7200_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO7200_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO9000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO9000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO9000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO9000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO9000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO9000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO9000_3528x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO9000_3528x1512.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/486/ISO9000_3696x1584.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/486/ISO9000_3696x1584.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO1450_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO1450_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO1450_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO1450_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO1450_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO1450_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO1450_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO1450_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO2100_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO2100_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO2100_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO2100_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO2100_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO2100_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO2100_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO2100_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO240_2448x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO240_2448x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO240_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO240_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO240_3264x1840.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO240_3264x1840.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO240_3264x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO3200_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO3200_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO3200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO3200_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO3200_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO3200_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO3200_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO3200_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO400_2448x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO400_2448x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO400_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO400_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO400_3264x1840.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO400_3264x1840.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H7/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H7/ISO400_3264x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO11000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO11000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO11000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO11000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO11000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO11000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO11000_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO11000_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO2200_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO2200_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO2200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO2200_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO2200_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO2200_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO2200_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO2200_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO240_2448x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO240_2448x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO240_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO240_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO240_3264x1840.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO240_3264x1840.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO240_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO240_3264x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO3000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO3000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO3000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO3000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO3000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO3000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO3000_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO3000_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO4000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO4000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO4000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO4000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO4000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO4000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO4000_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO4000_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO400_2448x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO400_2448x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO400_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO400_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO400_3264x1840.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO400_3264x1840.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO400_3264x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO520_2448x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO520_2448x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO520_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO520_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO520_3264x1840.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO520_3264x1840.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO520_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO520_3264x2448.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO6000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO6000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO6000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO6000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO6000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO6000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO6000_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO6000_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO7200_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO7200_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO7200_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO7200_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO7200_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO7200_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO7200_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO7200_3264x1400.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO9000_2288x2288.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO9000_2288x2288.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO9000_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO9000_2592x1944.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO9000_3040x1712.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO9000_3040x1712.ncf \
+    vendor/sony/himiko/proprietary/vendor/etc/4H8/ISO9000_3264x1400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/4H8/ISO9000_3264x1400.ncf \
     vendor/sony/himiko/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     vendor/sony/himiko/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     vendor/sony/himiko/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/sony/himiko/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/sony/himiko/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/imx486_sm23_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx486_sm23_chromatix.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/s5k4h7yx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7yx_chromatix.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/camera/sm23_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm23_camera_config.xml \
     vendor/sony/himiko/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/sony/himiko/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/sony/himiko/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/sony/himiko/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/sony/himiko/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/sony/himiko/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/sony/himiko/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/sony/himiko/proprietary/vendor/etc/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
     vendor/sony/himiko/proprietary/vendor/etc/qdcm_calib_data_8.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_8.xml \
     vendor/sony/himiko/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/sony/himiko/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
+    vendor/sony/himiko/proprietary/vendor/etc/sensors/sensor_def_somc_product.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_product.conf \
     vendor/sony/himiko/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/sony/himiko/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/himiko/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/sony/himiko/proprietary/vendor/etc/wifi/wifi_txpower.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_txpower.conf \
     vendor/sony/himiko/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/sony/himiko/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
+    vendor/sony/himiko/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/sony/himiko/proprietary/vendor/firmware/a508_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b00 \
     vendor/sony/himiko/proprietary/vendor/firmware/a508_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b01 \
     vendor/sony/himiko/proprietary/vendor/firmware/a508_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b02 \
@@ -31,6 +151,126 @@ PRODUCT_COPY_FILES += \
     vendor/sony/himiko/proprietary/vendor/firmware/a508_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.mdt \
     vendor/sony/himiko/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/sony/himiko/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_12_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_1.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b00 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b01 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b02 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b03 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b04 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b05 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b06 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b07 \
+    vendor/sony/himiko/proprietary/vendor/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.mdt \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio.config@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio.config@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio.config@1.2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio.deprecated@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio@1.2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio@1.3.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.radio@1.4.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hardware.secure_element@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.hidl.safe_union@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.hidl.safe_union@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/android.system.suspend@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/android.system.suspend@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/ld-android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/ld-android.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libbase.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libbinder.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libbinderthreadstate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libbinderthreadstate.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libc++.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libcgrouprc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libcgrouprc.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libconfigdb.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libcutils.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libdevice_security_vendor.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libdiag.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libdl_android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libdl_android.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libdsi_netctrl.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libdsutils.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libhardware_legacy.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libhidlbase.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libhidltransport.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libhwbinder.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libidl.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libjson.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/liblog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/liblog.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/liblqe.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libmdmdetect.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libmiscta.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libnetmgr.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libpdmapper.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libpdnotifier.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libperipheral_client.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libprocessgroup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libprocessgroup.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libprotobuf-cpp-full.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqcrilFramework.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqdi.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqdp.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi_cci.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi_client_helper.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi_client_qmux.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi_common_so.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmi_encdec.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libqmiservices.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libril-qc-hal-qmi.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libril-qc-ltedirectdisc.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libril-qc-radioconfig.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libril-qcril-hook-oem.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libril.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/librilqmiservices.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/librilutils.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libsettings.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libsqlite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libsqlite.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libsystem_health_mon.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libtime_genoff.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libutils.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libvndksupport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libvndksupport.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libxml.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libxml2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libxml2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/libz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/libz.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/qcrild_librilutils.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/qtibus.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/qtimutex.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.data.connection@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.data.connection@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.data.iwlan@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.4.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.5.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.ims@1.6.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.qtiradio@2.3.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim@1.2.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.somc.hardware.radio@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/himiko-radio/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/himiko-radio/vendor.somc.hardware.security.secd@1.0.so \
+    vendor/sony/himiko/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
+    vendor/sony/himiko/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/sony/himiko/proprietary/vendor/usr/idc/synaptics_tcm_touch.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_tcm_touch.idc
 
 PRODUCT_PACKAGES += \
@@ -38,37 +278,263 @@ PRODUCT_PACKAGES += \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
+    vulkan.adreno \
     libC2D2 \
     libadreno_utils \
+    libdiag \
+    libdsutils \
     libgsl \
+    libidl \
     libllvm-glnext \
+    libmdmdetect \
+    libqmi_cci \
+    libqmi_client_qmux \
+    libqmi_common_so \
+    libqmi_encdec \
+    libqmiservices \
+    libsensor1 \
+    camera.sdm660 \
+    libOpenCL \
+    libactuator_lc898214xc \
+    libactuator_lc898219xi \
+    libarcimageprocess \
+    libarcsoft_antishaking \
+    libarcsoft_beautyshot \
+    libarcsoft_condition_detection \
+    libarcsoft_detection_base \
+    libarcsoft_dro \
+    libarcsoft_face_detection \
+    libarcsoft_face_tracking \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_low_light_shot \
+    libarcsoft_motiondetection \
+    libarcsoft_nighthawk \
+    libarcsoft_object_tracking \
+    libarcsoft_picauto \
+    libarcsoft_rer \
+    libarcsoft_selfie_correction \
+    libarcsoft_smart_denoise \
+    libarcsoft_smile_detection \
+    libc2d30_bltlib \
+    libcam3rdparty \
+    libcdsprpc \
+    libchromatix_imx486_sm23_bokeh \
+    libchromatix_imx486_sm23_common \
+    libchromatix_imx486_sm23_cpp_4k \
+    libchromatix_imx486_sm23_cpp_bokeh \
+    libchromatix_imx486_sm23_cpp_default \
+    libchromatix_imx486_sm23_cpp_hfr \
+    libchromatix_imx486_sm23_cpp_mms \
+    libchromatix_imx486_sm23_cpp_snapshot \
+    libchromatix_imx486_sm23_cpp_video \
+    libchromatix_imx486_sm23_default \
+    libchromatix_imx486_sm23_hfr_120_3a \
+    libchromatix_imx486_sm23_hfr_60_3a \
+    libchromatix_imx486_sm23_postproc \
+    libchromatix_imx486_sm23_snapshot \
+    libchromatix_imx486_sm23_video \
+    libchromatix_imx486_sm23_zsl_4k \
+    libchromatix_imx486_sm23_zsl_bokeh \
+    libchromatix_imx486_sm23_zsl_default \
+    libchromatix_imx486_sm23_zsl_manual \
+    libchromatix_imx486_sm23_zsl_preview \
+    libchromatix_imx486_sm23_zsl_sports \
+    libchromatix_imx486_sm23_zsl_video \
+    libchromatix_s5k4h7yx_common \
+    libchromatix_s5k4h7yx_cpp_default \
+    libchromatix_s5k4h7yx_cpp_mms \
+    libchromatix_s5k4h7yx_cpp_snapshot \
+    libchromatix_s5k4h7yx_cpp_video \
+    libchromatix_s5k4h7yx_default \
+    libchromatix_s5k4h7yx_postproc \
+    libchromatix_s5k4h7yx_snapshot \
+    libchromatix_s5k4h7yx_video \
+    libchromatix_s5k4h7yx_zsl_default \
+    libchromatix_s5k4h7yx_zsl_preview \
+    libchromatix_s5k4h7yx_zsl_video \
+    libchromatix_s5k4h8_bokeh \
+    libchromatix_s5k4h8_common \
+    libchromatix_s5k4h8_cpp_bokeh \
+    libchromatix_s5k4h8_cpp_default \
+    libchromatix_s5k4h8_cpp_mms \
+    libchromatix_s5k4h8_cpp_snapshot \
+    libchromatix_s5k4h8_cpp_video \
+    libchromatix_s5k4h8_default \
+    libchromatix_s5k4h8_postproc \
+    libchromatix_s5k4h8_snapshot \
+    libchromatix_s5k4h8_video \
+    libchromatix_s5k4h8_zsl_bokeh \
+    libchromatix_s5k4h8_zsl_default \
+    libchromatix_s5k4h8_zsl_manual \
+    libchromatix_s5k4h8_zsl_preview \
+    libchromatix_s5k4h8_zsl_video \
+    libdepthmapwrapper \
+    libfastcvopt \
+    libflash_pmic \
+    libhal_dbg \
+    libjpegdhw \
+    libjpegdmahw \
+    libjpegehw \
+    libmmcamera2_c2d_module \
+    libmmcamera2_cpp_module \
+    libmmcamera2_frame_algorithm \
+    libmmcamera2_iface_modules \
+    libmmcamera2_imglib_modules \
+    libmmcamera2_is \
+    libmmcamera2_isp_modules \
+    libmmcamera2_mct \
+    libmmcamera2_mct_shimlayer \
+    libmmcamera2_pp_buf_mgr \
+    libmmcamera2_pproc_modules \
+    libmmcamera2_q3a_core \
+    libmmcamera2_sensor_modules \
+    libmmcamera2_stats_algorithm \
+    libmmcamera2_stats_lib \
+    libmmcamera2_stats_modules \
+    libmmcamera_arc_nighthawk \
+    libmmcamera_arc_nighthawk_4k \
+    libmmcamera_arc_nighthawk_tele \
+    libmmcamera_dbg \
+    libmmcamera_depth_map \
+    libmmcamera_dummyalgo \
+    libmmcamera_eebinparse \
+    libmmcamera_eeprom_util \
+    libmmcamera_eztune_module \
+    libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_hdr_gb_lib \
+    libmmcamera_hvx_add_constant \
+    libmmcamera_hvx_grid_sum \
+    libmmcamera_imglib \
+    libmmcamera_imglib_faceproc_adspstub \
+    libmmcamera_imx486 \
+    libmmcamera_interface \
+    libmmcamera_isp_abf48 \
+    libmmcamera_isp_aec_bg_stats47 \
+    libmmcamera_isp_bf_stats47 \
+    libmmcamera_isp_bg_stats46 \
+    libmmcamera_isp_bhist_stats44 \
+    libmmcamera_isp_black_level48 \
+    libmmcamera_isp_bpc48 \
+    libmmcamera_isp_cac47 \
+    libmmcamera_isp_chroma_enhan40 \
+    libmmcamera_isp_chroma_suppress40 \
+    libmmcamera_isp_clamp_encoder40 \
+    libmmcamera_isp_clamp_video40 \
+    libmmcamera_isp_clamp_viewfinder40 \
+    libmmcamera_isp_color_correct46 \
+    libmmcamera_isp_color_xform_encoder46 \
+    libmmcamera_isp_color_xform_video46 \
+    libmmcamera_isp_color_xform_viewfinder46 \
+    libmmcamera_isp_cs_stats46 \
+    libmmcamera_isp_demosaic48 \
+    libmmcamera_isp_demux48 \
+    libmmcamera_isp_fovcrop_encoder46 \
+    libmmcamera_isp_fovcrop_video46 \
+    libmmcamera_isp_fovcrop_viewfinder46 \
+    libmmcamera_isp_gamma44 \
+    libmmcamera_isp_gic48 \
+    libmmcamera_isp_gtm46 \
+    libmmcamera_isp_hdr48 \
+    libmmcamera_isp_hdr_be_stats46 \
+    libmmcamera_isp_hdr_bhist_stats44 \
+    libmmcamera_isp_ihist_stats46 \
+    libmmcamera_isp_linearization40 \
+    libmmcamera_isp_ltm47 \
+    libmmcamera_isp_luma_adaptation40 \
+    libmmcamera_isp_mce40 \
+    libmmcamera_isp_mesh_rolloff44 \
+    libmmcamera_isp_pdaf48 \
+    libmmcamera_isp_pedestal_correct46 \
+    libmmcamera_isp_rs_stats46 \
+    libmmcamera_isp_scaler_encoder46 \
+    libmmcamera_isp_scaler_video46 \
+    libmmcamera_isp_scaler_viewfinder46 \
+    libmmcamera_isp_sce40 \
+    libmmcamera_isp_snr47 \
+    libmmcamera_isp_sub_module \
+    libmmcamera_paaf_lib \
+    libmmcamera_pdaf \
+    libmmcamera_pdafcamif \
+    libmmcamera_ppbase_module \
+    libmmcamera_ppeiscore \
+    libmmcamera_s5k4h7yx \
+    libmmcamera_s5k4h7yx_eeprom \
+    libmmcamera_s5k4h8 \
+    libmmcamera_samsung_s5k4h8yx_eeprom \
+    libmmcamera_sony_imx486_eeprom \
+    libmmcamera_stillmore_lib \
+    libmmcamera_sw2d_lib \
+    libmmcamera_thread_services \
+    libmmcamera_tintless_algo \
+    libmmcamera_tintless_bg_pca_algo \
+    libmmcamera_tuning \
+    libmmcamera_tuning_lookup \
+    libmmjpeg \
+    libmmjpeg_interface \
+    libmmlib2d_interface \
+    libmmqjpeg_codec \
+    libmmqjpegdma \
+    libmorpho_video_refiner \
+    libmpbase \
+    libqomx_jpegdec \
+    libqomx_jpegenc \
+    libqomx_jpegenc_pipe \
+    libseemore \
+    libthermalclient \
+    com.fingerprints.extension@1.0 \
+    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.gnss@2.1-impl-qti \
+    sensors.sdm660 \
+    vendor.qti.gnss@4.2-impl \
     libGPreqcancel \
     libGPreqcancel_svc \
     libQSEEComAPI \
     libStDrvInt \
-    libdiag \
+    lib_fpc_tac_shared \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
+    libbatching \
+    libbtnv \
+    libcdfw_remote_api \
+    libdataitems \
     libdrmfs \
     libdrmtime \
-    libdsutils \
+    libgdtap \
+    libgeofencing \
+    libgnss \
+    libgps.utils \
     libhdr_tm \
-    libidl \
+    libidd \
+    libizat_client_api \
+    libizat_core \
     libjson_himiko \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
-    libmdmdetect \
+    liblbs_core \
+    liblights-core \
+    libloc_api_v02 \
+    libloc_core \
+    liblocation_api \
+    liblocationservice \
+    liblocationservice_glue \
+    liblowi_client \
+    libminksocket \
     libmiscta \
+    libpdmapper \
     libperipheral_client \
+    libprotobuf-c \
     libqcbor \
+    libqcc_file_agent \
+    libqdma_file_agent \
     libqisl \
-    libqmi_cci \
-    libqmi_client_qmux \
-    libqmi_common_so \
     libqmi_csi \
-    libqmi_encdec \
-    libqmiservices \
     libqrtr \
+    libqrtr_himiko_gnss \
     libqseed3 \
     libqsocket \
     libqtikeymaster4 \
@@ -79,15 +545,39 @@ PRODUCT_PACKAGES += \
     libsdmextension \
     libsecureui \
     libsecureui_svcsock \
+    libsensor_reg \
+    libsoc_helper \
     libssd \
+    libsys-utils \
     libta \
     libtime_genoff \
     libtinyxml2_1 \
+    libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
+    vendor.qti.gnss@1.0 \
+    vendor.qti.gnss@1.1 \
+    vendor.qti.gnss@1.2 \
+    vendor.qti.gnss@2.0 \
+    vendor.qti.gnss@2.1 \
+    vendor.qti.gnss@3.0 \
+    vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2-service \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
+    vendor.semc.system.idd@1.0 \
+    vendor.qti.gnss@4.2-service.xml \
     cnss-daemon \
     android.hardware.gatekeeper@1.0-service-qti \
+    android.hardware.gnss@2.1-service-qti \
     android.hardware.keymaster@4.0-service-qti \
+    fpc_fingerprint@2.1_HIDL-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
+    loc_launcher \
+    lowi-server \
+    mlid \
     mlog_qmi_service \
     pd-mapper \
     pm-proxy \
@@ -96,6 +586,11 @@ PRODUCT_PACKAGES += \
     qseecomd \
     rmt_storage \
     sct_service \
+    sensors.qti \
+    slim_daemon \
     ta_qmi_service \
     tad \
-    tftp_server
+    tftp_server \
+    xtra-daemon \
+    xtwifi-client \
+    xtwifi-inet-agent

@@ -2053,6 +2053,10 @@
         <path name="speaker" />
     </path>
 
+    <path name="speaker-safe">
+        <path name="speaker-mono" />
+    </path>
+
     <path name="ringtone-speaker">
         <path name="speaker" />
         <ctl name="Set Custom Stereo OnOff" value="1" />
@@ -2791,6 +2795,14 @@
 
     <path name="audio-ull-playback bt-a2dp">
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia3" value="1" />
+    </path>
+
+    <path name="audio-playback-voip">
+        <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+    </path>
+
+    <path name="audio-playback-voip handset">
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="audio-playback-voip bt-a2dp">
